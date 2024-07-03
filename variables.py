@@ -80,3 +80,12 @@ print(2 * (3-1) )#outpud: 4
 nombre = input("Introdusca un nombre: ")
 
 print("Bienvenido " + nombre)
+
+#Ejercicio 2: Escribe un programa para pedirle al usuario el número de horas y la tarifa por hora para calcular el salario bruto.
+
+horas =float( input("Introduce tu horas: "))
+tarifa =float( input("Introduce tu tarifa por hora trabajada: "))
+
+resultado = horas * tarifa
+
+print("Tu salario es: " + str(resultado))
