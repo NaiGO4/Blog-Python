@@ -14,3 +14,26 @@ print("Funciones internas")
 print(max("Hola mundo"))#output: u / "u" tiene un valor ASCII de 117.
 print(min("Hola mundo"))#output: " " / " " (espacio) tiene un valor ASCII de 32.
 
+
+def muestraDosVeces(bruce):
+    print(bruce)
+    print(bruce)
+
+print(muestraDosVeces("Dos lineas"))
+print(muestraDosVeces(11))
+
+
+michael = "Michael, cantante"
+print(muestraDosVeces(michael))
+#El nombre de la variable que pasamos como argumento, (michael) no tiene nada que ver con el nombre del parámetro (bruce). 
+
+#Ejercio
+
+def fred():
+    print("Zap")
+def jane():
+    print("ABC")
+
+print(fred())
+print(jane())
+print(fred())
